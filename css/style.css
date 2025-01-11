@@ -17,6 +17,7 @@ body {
     font-size: 18px;
     padding: 15px 30px;
     border-radius: 8px;
+    border: none;
 } 
 /* Nav style */
 header, main {
@@ -231,7 +232,9 @@ nav button {
 }
 
 /* section-4 */
-
+.section4 {
+    margin-bottom: 80px;
+}
 .section4 h2 {
     font-weight: bold;
     font-size: 40px;
@@ -268,4 +271,98 @@ nav button {
 .artical-info p {
     font-size: 16px;
     margin-bottom: 32px;
+}
+
+/* section-5 */
+
+.section5 {
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.section5 h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.section5 p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+    padding: 0px 100px;
+}
+.ammounts {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.ammount {
+    
+    border: 1px solid #a19e9e;
+    padding: 40px;
+    border-radius: 16px;
+}
+.ammount span {
+    font-size: 40px;
+    font-weight: bold;
+}
+.section5 input {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.2);
+    padding: 20px 420px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgba(14, 14, 14, 0.15);
+    margin-bottom: 32px;
+    text-align: center;
+}
+.section5 a {
+    display: block;
+    text-align: center;
+}
+/* section-6 */
+
+.section6 {
+    padding: 80px 100px;
+    background-color: #C6E4D6;
+    margin-bottom: 80px;
+    border-radius: 24px;
+}
+.section6 h2 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0px 64px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.section6 p {
+    font-size: 16px;
+    text-align: center;
+    color:rgba(14, 14, 14, 0.7);
+    padding: 0px 350px;
+    margin-bottom: 16px;
+}
+.section6 .input {
+    margin-bottom: 25px;
+    padding: 16px 300px;
+}
+.section6 .input input {
+    font-size: 16px;
+    color: #f0f0f0;
+    padding: 18px 200px;
+    border-color: #ffffff;
+    border-radius: 16px 0px 0px 16px;
+    border: none;
+}
+.section6 .input button {
+    border-radius: 0px 16px 16px 0px;
+    font-size: 18px;
+    padding: 17px 34px;
+    margin-left: -4px;
 }
