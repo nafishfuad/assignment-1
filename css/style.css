@@ -36,6 +36,12 @@ nav button {
     border-color: #006A50;
     color: #006A50;
 }
+nav button:hover {
+    background-color: #006A50;
+    border-color: none;
+    color:#ffffff;
+    box-shadow: 10px 0px 50px #C6E4D6;
+}
 .banner {
     margin: 20px 0px 80px;
     background-color: #C6E4D6;
@@ -64,6 +70,9 @@ nav button {
     font-size: 18px;
     border: none;
 }
+.banner-btn:hover {
+    font-size: 20px;
+}
 /* main section */
 
 /* section-1 */
@@ -85,6 +94,9 @@ nav button {
     border: 1px solid #dfdede;
     border-radius: 16px;
     width: 302px;
+}
+.pillars-card:hover {
+    box-shadow: 8px 5px 30px 1px #0E0E0E;
 }
 .pillars-card img {
     width: 64px;
@@ -150,6 +162,9 @@ nav button {
     color: #ffffff;
     background-color: #5490f5;
 }
+.vision-btn1:hover {
+    background-color: #335288;
+}
 .vis-card1 {
     background-color: rgba(84, 144, 245, 0.2);
 }
@@ -159,11 +174,17 @@ nav button {
 .vis-card2 button {
     background-color: #09A15C;
 }
+.vis-card2:hover button {
+    background-color: #1d744d;
+}
 .vis-card3 {
     background-color: #F7EBCF;
 }
 .vis-card3 button {
     background-color: #FFC239;
+}
+.vis-card3:hover button {
+    background-color: #be9533;
 }
 .section2-comment {
     border: 1px solid #dfdede;
@@ -274,7 +295,9 @@ nav button {
     font-size: 16px;
     margin-bottom: 32px;
 }
-
+.section4 button:hover {
+    box-shadow: 3px 3px 10px #a19e9e;
+}
 /* section-5 */
 
 .section5 {
@@ -368,7 +391,10 @@ nav button {
     padding: 17px 34px;
     margin-left: -4px;
 }
-
+.section6 .input button:hover {
+    background-color: #dadada;
+    color: #006A50;
+}
 /* footer */
 
 footer .container {
@@ -387,4 +413,7 @@ footer .container .icon-container {
     display: flex;
     justify-content: center;
     gap: 23px;
+}
+.icon-container img:hover {
+    width: 40px;
 }
