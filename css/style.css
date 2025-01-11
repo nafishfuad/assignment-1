@@ -170,6 +170,7 @@ nav button {
     background-repeat: no-repeat;
     background-position-x: 25px;
     background-position-y: 20px;
+    margin-bottom: 80px;
 }
 .section2-comment p {
     font-size: 16px;
@@ -181,3 +182,33 @@ nav button {
 }
 /* section3 */
 
+.section3 h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.section3 table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+.table {
+    padding: 32px;
+}
+.section3 table {
+    width: 100%;
+}
+.section3 th {
+    background-color: #C6E4D6;
+    padding: 24px;
+}
+.th {
+    display: flex;
+    justify-content: space-between;
+}
+.section3 th span {
+    font-weight: 600;
+    font-size: 20px;
+}
+.section3 td {
+    padding: 36px;
+}
