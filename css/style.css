@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: #0E0E0E;
 }
 .font {
     font-family: "Fira Sans", serif;
@@ -18,7 +19,7 @@ body {
     border-radius: 8px;
 } 
 /* Nav style */
-header {
+header, main {
     margin: 0px 160px;
 }
 nav {
@@ -28,7 +29,6 @@ nav {
     margin: 25px 0px;
 }
 nav h3 {
-    color: #0E0E0E;
     font-weight: 600;
     font-size: 32px;
 }
@@ -55,7 +55,6 @@ nav button {
 .banner-conect h1 {
     font-weight: bold;
     font-size: 56px;
-    color: #0E0E0E;
     margin-bottom: 24px;
 }
 .banner-btn {
@@ -64,3 +63,104 @@ nav button {
     font-weight: 600;
     font-size: 18px;
 }
+/* main section */
+
+/* section1 */
+.section1 {
+    margin-bottom: 80px;
+}
+.section-h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.pillars-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.pillars-card {
+    padding: 24px;
+    border: 1px solid #dfdede;
+    border-radius: 16px;
+    width: 302px;
+}
+.pillars-card img {
+    width: 64px;
+    margin-bottom: 24px;
+}
+.pillars-card h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 12px;
+    width: 254px;
+}
+.pillars-card p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 254px;
+}
+
+/* section2 */
+
+.section2 {
+    margin-bottom: 32px;
+}
+.section2 h2 {
+    margin-bottom: 24px;
+}
+.section2 p {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.vision-cards {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.vision-card {
+    padding: 32px;
+    border-radius: 16px;
+}
+.vision-card img {
+    margin-bottom: 24px;
+    width: 64px;
+}
+.vision-card h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.vision-card p {
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+.vision-btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #f5f5f5;
+}
+.vision-btn1 {
+    color: #ffffff;
+    background-color: #5490f5;
+}
+.vis-card1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vis-card2 {
+    background-color: #C6E4D6;
+}
+.vis-card2 button {
+    background-color: #09A15C;
+}
+.vis-card3 {
+    background-color: #F7EBCF;
+}
+.vis-card3 button {
+    background-color: #FFC239;
+}
+
+/* section3 */
+
