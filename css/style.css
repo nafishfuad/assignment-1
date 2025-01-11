@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.font {
+    font-family: "Fira Sans", serif;
+}
+body {
+    background-color: #f5f5f5;
+}
+/* Shared Style */
+.btn-style {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 8px;
+} 
+/* Nav style */
+header {
+    margin: 0px 160px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+}
+nav h3 {
+    color: #0E0E0E;
+    font-weight: 600;
+    font-size: 32px;
+}
+nav button {
+    border-color: #006A50;
+    color: #006A50;
+}
+.banner {
+    margin: 20px 0px 80px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    gap: 64px;
+}
+.banner-conect h4 {
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+.banner-conect h1 {
+    font-weight: bold;
+    font-size: 56px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.banner-btn {
+    background-color: #006A50;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
